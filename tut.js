@@ -5,7 +5,7 @@
 // a=document.links[0].href;
 // console.log(a)
 
-let element = document.getElementById('first')
+// let element = document.getElementById('first')
 // let element = document.body
 
 // element = element.className;
@@ -25,20 +25,26 @@ let element = document.getElementById('first')
 
 // console.log(cont.children[1].children[1].children)
 
-let attr = document.createElement('li');
-attr.innerText = "Hello";
-// console.log(attr)
-attr.className="childul";
-ele = document.querySelector('ul.this');
-ele.appendChild(attr);
-// console.log(ele);
+// let attr = document.createElement('li');
+// attr.innerText = "Hello";
+// // console.log(attr)
+// attr.className="childul";
+// ele = document.querySelector('ul.this');
+// ele.appendChild(attr);
+// // console.log(ele);
 
-let elem2 = document.createElement("h3");
-elem2.id = 'elem2';
-elem2.className ='elem2';                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-elem2.innerText = "this is a elem2"
-attr.replaceWith(elem2)
+// let elem2 = document.createElement("h3");
+// elem2.id = 'elem2';
+// elem2.className ='elem2';                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+// elem2.innerText = "this is a elem2"
+// attr.replaceWith(elem2)
 
-let myul = document.getElementById('this')
-myul.replaceChild(attr,document.getElementById("ful"))
-myul.removeChild(document.getElementById("lul"))
+// let myul = document.getElementById('this')
+// myul.replaceChild(attr,document.getElementById("ful"))
+// myul.removeChild(document.getElementById("lul"))
+
+let myhead=document.createElement('a')
+myhead.innerHTML = "<br>Goto code with harry"
+let heading =  document.getElementById("heading")
+heading.appendChild(myhead)
+myhead.setAttribute('href',"https://www.codewithharry.com")
