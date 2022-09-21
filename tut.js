@@ -41,3 +41,4 @@ attr.replaceWith(elem2)
 
 let myul = document.getElementById('this')
 myul.replaceChild(attr,document.getElementById("ful"))
+myul.removeChild(document.getElementById("lul"))
