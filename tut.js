@@ -35,7 +35,7 @@
 
 // let elem2 = document.createElement("h3");
 // elem2.id = 'elem2';
-// elem2.className ='elem2';                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+// elem2.className ='elem2';
 // elem2.innerText = "this is a elem2"
 // attr.replaceWith(elem2)
 
@@ -43,8 +43,41 @@
 // myul.replaceChild(attr,document.getElementById("ful"))
 // myul.removeChild(document.getElementById("lul"))
 
-let myhead=document.createElement('a')
-myhead.innerHTML = "<br>Goto code with harry"
-let heading =  document.getElementById("heading")
-heading.appendChild(myhead)
-myhead.setAttribute('href',"https://www.codewithharry.com")
+// let myhead=document.createElement('a')
+// myhead.innerHTML = "<br>Goto code with harry"
+// let heading =  document.getElementById("heading")
+// heading.appendChild(myhead)
+// myhead.setAttribute('href',"https://www.codewithharry.com")
+
+// document.getElementById("heading").addEventListener("mouseover",function(e){
+//     let vari = e.target;
+//     console.log("you have clicked heading");
+//     console.log(vari);
+// });
+
+// document.querySelector(".container").addEventListener("mousemove",function(e){
+//     document.body.style.backgroundColor = `rgb(${e.offsetX},${e.offsetY},55)`
+//     console.log("you moved your mouse")
+// })
+
+// let str = "facebook";
+// let links = document.links;
+// Array.from(links).forEach(function (element) {
+//   let href = element.href;
+//   if (href.includes(str)) {
+//     console.log(href);
+//   }
+// });
+
+// let array = ["nimbu","kobi","pyaz"]
+// // localStorage.setItem("name","keyur")
+// // localStorage.setItem("name1","nimo")
+// localStorage.setItem("sabji",JSON.stringify(array))
+// let op = JSON.parse(localStorage.getItem("sabji"))
+// console.log(op)
+
+
+// let name=localStorage.getItem("name")
+// console.log(name)
+// localStorage.removeItem("name1")
+
